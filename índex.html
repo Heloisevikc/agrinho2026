@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2025 | Agro Forte, Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <span class="logo-icon">🌱</span>
+                <span>Agrinho Sustentável</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#praticas">Práticas</a></li>
+                <li><a href="#dados">Indicadores</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="menu-toggle">☰</div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Agro Forte, <span class="highlight">Futuro Sustentável</span></h1>
+                <p>Equilíbrio entre produção agrícola e preservação ambiental para as próximas gerações.</p>
+                <button id="saibaMaisBtn" class="btn-primary">Descubra como 🌍</button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat"><span class="stat-num" data-target="85">0</span><span>%</span><p>de agricultores adotam práticas sustentáveis</p></div>
+                <div class="stat"><span class="stat-num" data-target="30">0</span><span>%</span><p>redução de carbono com manejo eficiente</p></div>
+            </div>
+        </section>
+
+        <section id="sobre" class="sobre">
+            <h2>🌿 O Desafio do Nosso Tempo</h2>
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-icon">🌾</div>
+                    <h3>Produção</h3>
+                    <p>Alimentar o mundo com qualidade, produtividade e respeito à terra.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🍃</div>
+                    <h3>Preservação</h3>
+                    <p>Manter florestas, nascentes e biodiversidade em pé.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">⚖️</div>
+                    <h3>Equilíbrio</h3>
+                    <p>Tecnologia + natureza = agricultura do futuro.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="praticas" class="praticas">
+            <h2>🚜 Práticas Sustentáveis</h2>
+            <div class="grid-praticas">
+                <div class="pratica-item">
+                    <h3>Plantio Direto</h3>
+                    <p>Preserva a estrutura do solo e reduz erosão.</p>
+                </div>
+                <div class="pratica-item">
+                    <h3>Rotação de Culturas</h3>
+                    <p>Mantém a fertilidade naturalmente.</p>
+                </div>
+                <div class="pratica-item">
+                    <h3>Energia Limpa</h3>
+                    <p>Uso de biogás e solar no campo.</p>
+                </div>
+                <div class="pratica-item">
+                    <h3>ILPF</h3>
+                    <p>Integração Lavoura-Pecuária-Floresta.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="dados" class="dados">
+            <h2>📊 Acompanhe o Impacto</h2>
+            <div class="slider-container">
+                <input type="range" id="impactSlider" min="0" max="100" value="40">
+                <div class="slider-labels">
+                    <span>2020</span>
+                    <span>2023</span>
+                    <span>2025 (meta)</span>
+                </div>
+                <p id="impactText">Área com manejo sustentável: <strong>40%</strong></p>
+            </div>
+            <div class="quiz-area">
+                <h3>🎯 Você sabe o que é agro sustentável?</h3>
+                <button id="quizBtn" class="btn-secondary">Mostrar curiosidade</button>
+                <p id="quizAnswer" class="quiz-answer"></p>
+            </div>
+        </section>
+
+        <section id="contato" class="contato">
+            <h2>✉️ Faça parte dessa mudança</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Seu nome" id="nome" required>
+                <input type="email" placeholder="Seu e-mail" id="email" required>
+                <textarea placeholder="Sua mensagem" id="msg" rows="3"></textarea>
+                <button type="submit">Enviar 🌱</button>
+                <p id="formFeedback"></p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Projeto Agrinho – Agro forte, futuro sustentável | 🌎 Equilíbrio que alimenta o mundo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
